@@ -46,7 +46,9 @@ import {
 } from './lib/functions.js';
 
 import { fetchJson } from './lib/fetcher.js';
-import { recognize } from './lib/ocr.js';
+// CORREGIDO: para importar una función exportada con CommonJS
+import ocr from './lib/ocr.js';
+const recognize = ocr.recognize;
 /******FIN DE ENTRADA DE ARCHIVO******/
 
 
