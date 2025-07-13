@@ -35,17 +35,20 @@ iniciar();
 
 /******COMIENZO DE LA ENTRADA DEL ARCHIVO******/
 import { color } from './lib/color.js';
-import { bahasa } from './src/bahasa.js';  // ESM import compatible								
-import { negara } from './src/kodenegara.js';										
+import { bahasa } from './src/bahasa.js';
+import { negara } from './src/kodenegara.js';
 import { virtex } from './src/virtex.js';
+
 import {
   wait, pegatinas, musica, simih, getBuffer, h2k,
   generateMessageID, getGroupAdmins, getRandom,
   start, info, success, close, banner
 } from './lib/functions.js';
+
 import { fetchJson } from './lib/fetcher.js';
 import { recognize } from './lib/ocr.js';
 /******FIN DE ENTRADA DE ARCHIVO******/
+
 
 /******COMIENZO DE LA ENTRADA DEL PAQUETE NPM******/
 import moment from 'moment-timezone';
