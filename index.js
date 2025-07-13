@@ -46,10 +46,9 @@ import {
 } from './lib/functions.js';
 
 import { fetchJson } from './lib/fetcher.js';
-// CORREGIDO: para importar una función exportada con CommonJS
-import ocr from './lib/ocr.js';
-const recognize = ocr.recognize;
+const { recognize } = require('./lib/ocr.js'); // ✅ CORRECTO
 /******FIN DE ENTRADA DE ARCHIVO******/
+
 
 
 /******COMIENZO DE LA ENTRADA DEL PAQUETE NPM******/
