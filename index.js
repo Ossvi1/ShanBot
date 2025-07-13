@@ -53,6 +53,14 @@ import fetch from 'node-fetch';
 /*const tiktod = require('tiktok-scraper')*/
 import ffmpeg from 'fluent-ffmpeg';
 import { removeBackgroundFromImageFile } from 'remove.bg';
+import { banner, start, info, success, close } from './lib/functions.js';
+
+console.clear();
+console.log(banner());
+start();
+info();
+success();
+
 /*const imgbb = require('imgbb-uploader')*/
 //const lolis = require('lolis.life');
 //const loli = new lolis();
