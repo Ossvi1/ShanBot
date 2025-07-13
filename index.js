@@ -46,8 +46,11 @@ import {
 } from './lib/functions.js';
 
 import { fetchJson } from './lib/fetcher.js';
-const { recognize } = require('./lib/ocr.js'); // ✅ CORRECTO
+
+// ✅ OCR como CommonJS
+const { recognize } = require('./lib/ocr.js');
 /******FIN DE ENTRADA DE ARCHIVO******/
+
 
 
 
